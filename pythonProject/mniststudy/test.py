@@ -37,9 +37,7 @@
 # #张量转置
 # x = np.transpose(x)
 import numpy as np
-t = 5;
-results = np.zeros(2,t)
-print(results)
 
-results[2,[123456]]
+results = np.zeros((1, 10))
+results[0,[0]]=1
 print(results)
